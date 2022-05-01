@@ -3,8 +3,21 @@ timm>=0.4.12
 torchvision
 pyyaml
 numpy
+effdet
 
 # an update version that fixes some bugs, incl issues with numpy >= 1.18
 pycocotools>=2.0.2
 
 omegaconf>=2.0
+
+# training depedencies
+albumentations
+ensemble-boxes
+fastcore
+pytorch-lightning
+torch-summary
+
+# logger
+wandb
+
+setuptools==59.5.0
